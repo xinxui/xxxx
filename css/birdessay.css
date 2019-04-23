@@ -1,0 +1,119 @@
+.content{
+    background: #f1f2f6;
+}
+.content>.container{
+    background: white;
+}
+.content .center-bg{
+    width: 780px;
+    padding: 5% 160px 20%;
+}
+
+.content .title {
+    text-align: center;
+    color: #311859;
+}
+
+.content .title h1 {
+    padding-top: 10%;
+    font: 52px/1em '楷体';
+}
+
+.content .title p {
+    font: 22px/26px 'Microsoft yahei';
+    letter-spacing: 3px;
+}
+
+.content .title section {
+    height: 20px;
+    padding-top: 1%;
+}
+
+.content .top {
+    padding-top: 5%;
+    font: 30px/1.5em '楷体';
+    color: #311859;
+}
+
+.content .top p {
+    padding-bottom: 2%;
+}
+
+.content .top .line {
+    position: relative;
+    width: 724px;
+    height: 2px;
+    background: url(../img/pen_line_long.png) no-repeat;
+}
+
+.content .top .pen {
+    position: absolute;
+    top: -51px;
+    right: -55px;
+    width: 61px;
+    height: 54px;
+    background: url(../img/pen.png) no-repeat right;
+}
+
+.content .top .data ,.content .top .user{
+    display: inline-block;
+    font: 16px/3em '楷体';
+    padding-right: 2%;
+}
+
+
+.title-img {
+    width: 780px;
+    height: 231px;
+}
+
+.content-txt .title{
+    padding: 1% 0;
+    text-align: left;
+    font: 25px/2em '楷体';
+}
+.content-txt p{
+    padding-bottom: 3%;
+    font: 17px/2em '楷体';
+}
+.xh{
+    height: 153px;
+}
+.xh .pen{
+    width: 340px;
+    margin: 0 auto;
+}
+.xh i {
+    display: block;
+    width: 73px;
+    height: 73px;
+    margin-left: 130px;
+    background: url(../images/article_iflike.png)no-repeat 0 0;
+}
+.xh i:hover{
+    /* 扣彈 */
+    animation: 1s linear su-pudding;
+    background: url(../images/article_iflike.png)no-repeat 0 -73px;
+}
+.xh p{
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin: 30px auto;
+    background: gray;
+    color: white;
+    display: none;
+}
+.xh span{
+    display: block;
+    width: 135px;
+    height: 35px;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 35px;
+    color: white;
+    display: none;
+    animation: 1s linear su-pudding;
+    background: url(../images/article_iflike_nomberbg.png)no-repeat;
+}

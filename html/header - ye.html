@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="卓新科技">
+    <meta name="description" content="最好的前端学习,培训">
+    <title>Document</title>
+    <!-- <link rel="shortcut icon" href="../bird_favicon.ico"> -->
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/header.ye.css">
+    <script src="../js/jquery1.12.4.js"></script>
+    <script src="../js/move.js"></script>
+    <script>
+        $(function(){
+            $('.firstMenu').hover(function(){
+                $(this).find('ol').stop().slideDown(600,'elasticOut');
+            },function(){
+                $(this).find('ol').stop().slideUp(600,'elasticIn');
+            })
+        })
+    </script>
+</head>
+
+<body>
+    <!-- 头部页面部分 -->
+    <section class="header">
+        <div class="container">
+
+            <a href="./index.html" class="logo fl">卓新科技</a>
+
+            <div class="nav fr">
+                <ul>
+                    <a href="#" >
+                        <li>首页</li>
+                    </a>
+                    <a href="#">
+                        <li class="firstMenu">翡翠学院 <span></span>
+                            <ol>
+                                <a href="#">
+                                    <li>主页</li>
+                                </a>
+                                <a href="#">
+                                    <li>概述</li>
+                                </a>
+                                <a href="#">
+                                    <li>价值</li>
+                                </a>
+                                <a href="#">
+                                    <li>掌云</li>
+                                </a>
+                                <a href="#">
+                                    <li>联盟</li>
+                                </a>
+                                <a href="#">
+                                    <li>下载</li>
+                                </a>
+                            </ol>
+                        </li>
+
+                    </a>
+                    <a href="#">
+                        <li>卓新动态</li>
+                    </a>
+                    <a href="#">
+                        <li class="firstMenu">企业文化 <span></span>
+                            <ol>
+                                <a href="#">
+                                    <li>理念</li>
+                                </a>
+                                <a href="#">
+                                    <li>文化</li>
+                                </a>
+                                <a href="#">
+                                    <li>氛围</li>
+                                </a>
+                            </ol>
+                        </li>
+
+                    </a>
+                    <a href="#">
+                        <li class="firstMenu">人力资源 <span></span>
+                            <ol>
+                                <a href="#">
+                                    <li>人才</li>
+                                </a>
+                                <a href="#">
+                                    <li>团队</li>
+                                </a>
+                                <a href="#">
+                                    <li>招聘</li>
+                                </a>
+                            </ol>
+                        </li>
+                    </a>
+                    <a href="#">
+                        <li>联系我们</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <!-- <link rel="shortcut icon" href="../bird_favicon.ico"> -->
+    <!-- <link rel="stylesheet" href="../css/base.css"> -->
+    <link rel="stylesheet" href="../css/footer.css">
+    <!-- <script src="../js/jquery1.12.4.min.js"></script> -->
+    <script>
+        $(function(){
+            $('.music>li').on('click',function(){
+                // 创建音频节点添加进页面并自动播放
+                var temp = $('<audio src="../music/sound0'+$(this).index()+'.mp3" autoplay></audio>');
+                $('.footer').append(temp);
+                // 监听音频结束
+                temp.on('ended',function(){
+                    // 当音频结束清除当前音频
+                    $(this).remove();
+                })
+            })
+        })
+    </script>
+    <script type="text/html">
+        <audio  controls autoplay preload="auto" loop>
+        <source src="../music/sound00.mp3" >
+    </audio>
+    </script>
+</head>
+
+<body>
+    <section class="footer">
+            <div class="bottom-img"></div>
+        <div class="container">
+            <div class="top">
+                <ul class="music clearfix">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+            <div class="bottom">
+                <p>蜀ICP备123456789号</p>
+            </div>
+
+        </div>
+    </section>
+    <!-- controls出现播放界面   autoplay自动播放,谷歌已经禁用了   preloadauto预先加载 loop循环播放 -->
+    <!-- <audio  controls autoplay preload="auto" loop>
+        <source src="../music/sound00.mp3" >
+    </audio> -->
+</body>
+
+</html>

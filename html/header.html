@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="南京旅游">
+    <meta name="description" content="南京旅游">
+    <title>南京旅游</title>
+    <link rel="stylesheet" href="../css/header.css">
+    <base target="_blank">
+    <script>
+        $(function () {
+            $('.first-list>li').hover(function () {
+                $(this).find('ol').stop().slideDown(600, 'elasticOut');
+            }, function () {
+                $(this).find('ol').stop().slideUp(600, 'elasticIn');
+            })
+        })
+    </script>
+</head>
+
+<body>
+    <!-- 头部页面部分 -->
+    <section class="header">
+        <div class="container">
+
+            <a href="./index.html" class="logo fl">南京旅游</a>
+
+            <div class="nav fr">
+                <ul class="first-list">
+                    <li><a href="./index.html">首页</a></li>
+                    <li>
+                        <a href="#">传统南京</a><span></span>
+                        <ol class="second-list">
+                            <li><a href="./aboutbirder.html" target="_blank">主页</a><span></span></li>
+                            <li><a href="./aboutbirder.html#1">概述</a><span></span></li>
+                            <li><a href="./aboutbirder.html#2">南京民俗</a><span></span></li>
+                            <li><a href="./aboutbirder.html#3">气候特点</a><span></span></li>
+                            <li><a href="./aboutbirder.html#4">住宿</a><span></span></li>
+                            <li><a href="./aboutbirder.html#4">美食</a><span></span></li>
+                        </ol>
+                    </li>
+                    <li><a href="./birdtrents.html">景点动态</a></li>
+                    <li>
+                        <a href="#">景点介绍</a><span></span>
+                        <ol class="second-list">
+                            <li><a href="./birdessay.html?type=xiaoniaoNews1">夫子庙</a><span></span></li>
+                            <li><a href="./birdessay.html?type=xiaoniaoNews2">红山动物园</a><span></span></li>
+                            <li><a href="./birdessay.html?type=xiaoniaoNews3">明孝陵</a><span></span></li>
+                            <li><a href="./birdessay.html?type=xiaoniaoNews4">牛首山</a><span></span></li>
+                            <li><a href="./birdessay.html?type=xiaoniaoNews5">玄武湖</a><span></span></li>
+                            <li><a href="./birdessay.html?type=xiaoniaoNews6">银杏湖</a><span></span></li>
+                        </ol>
+                    </li>
+                    <!-- <li>
+                        <a href="#">人力资源</a><span></span>
+                        <ol class="second-list">
+                            <li><a href="./birdessay.html?type=talents">人才</a><span></span></li>
+                            <li><a href="./birdessay.html?type=team">团队</a><span></span></li>
+                            <li><a href="./birdessay.html?type=joinUs">招聘</a><span></span></li>
+                        </ol>
+                    </li> -->
+                    <li><a href="./birdessay.html?type=telUs">联系我们</a></li>
+                </ul>
+
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,77 @@
+/* 头部样式 */
+.header {
+    background:url(../images/nav-bg.jpg);
+    width: 100%;
+    height: 120px;
+}
+
+.header .logo {
+    width: 376px;
+    height: 120px;
+    background: url(../images/nj1.png) no-repeat center center;
+    text-indent: -9999em;
+}
+
+.header .nav {
+    font-size: 14px;
+    padding-top: 25px;
+}
+
+.first-list>li {
+    float: left;
+    position: relative;
+    cursor: pointer;
+}
+
+.first-list>li>a{
+    display: inline-block;
+    color: white;
+    padding: 5px 10px;
+}
+
+.first-list>li>span{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background: url(../img/nav_xiajiantou.png);
+    vertical-align: top;
+}
+.first-list>li:hover>span {
+    background-image: url(../img/nav_xiajiantou_hover.png);
+}
+
+/* second-list */
+.nav .second-list{
+    position: absolute;
+    width: 120%;
+    background: #372748;
+    left: -20px;
+    z-index: 10;
+    display: none;
+}
+.second-list>li>a{
+    display: block;
+    color: white;
+    text-align: center;
+    margin-left: -20px;
+    line-height: 40px;
+}
+.second-list>li{
+    position: relative;
+}
+.second-list>li>span{
+    position: absolute;
+    width: 5px;
+    height: 8px;
+    background: url(../img/nav_li_bg.png) no-repeat;
+    right: 10px;
+    top: 16px;
+    display: none;
+}
+.second-list>li:hover a{
+    margin: 0;
+    background: #039de9;
+}
+.second-list>li:hover span{
+    display: block;
+}

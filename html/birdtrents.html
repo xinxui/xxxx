@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/birdtrents.css">
+    <link rel="shortcut icon" href="../bird_favicon.ico">
+    <script src="../js/jquery1.12.4.min.js"></script>
+    <script src="../js/move.js"></script>
+    <script src="../js/birdtrents.js"></script>
+    <base target="_blank">
+
+    <script type="text/template" id="template">
+        <a href="./birdessay.html?type=xiaoniaoNews#sysId#">
+            <li>
+            <span class="imgs"><img src="#coverImg#"></span>
+                <div class="text">
+                    <div class="title">#title#</div>
+                    <div class="data">#creatAt#</div>
+                    <div class="txt-content">#describe#</div>
+                </div>
+            </li>
+        </a>
+    </script>
+</head>
+
+<body>
+    <!-- 头部 -->
+    <div id="header"></div>
+    <!-- 内容 -->
+    <div class="content">
+        <div class="container">
+            <div class="title">
+                <h1>景点动态</h1>
+                <p>Scenic spot dynamics</p>
+                <section><img src="../img/three_points01.png"></section>
+            </div>
+            <div class="top">
+                <p>列表</p>
+                <div class="line">
+                    <div class="pen"></div>
+                </div>
+            </div>
+            <div class="sault">
+                <ul class="clearfix">
+                    <!-- <li>
+                        <a href="./birdessay.html">
+                            <span class="imgs"><img src="../img/list_img01.jpg"></span>
+                            <div class="text">
+                                <div class="title">卓新思创重装出发</div>
+                                <div class="data">2016-1-11</div>
+                                <div class="txt-content">小鸟掌学创建于2014年初,起源服务于四川省专业技术人员继续教育基地的在线培训平台</div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./birdessay.html">
+                            <span class="imgs"><img src="../img/list_img02.jpg"></span>
+                            <div class="text">
+                                <div class="title">小鸟掌学开通国外渠道</div>
+                                <div class="data">2016-1-11</div>
+                                <div class="txt-content">小鸟掌学创建于2014年初，起源服务于四川省专业技术人员继续教育基地的在线培训平台</div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./birdessay.html">
+                            <span class="imgs"><img src="../img/list_img03.jpg"></span>
+                            <div class="text">
+                                <div class="title">卓新思创天气app上线</div>
+                                <div class="data">2016-1-11</div>
+                                <div class="txt-content">小鸟掌学创建于2014年初，起源服务于四川省专业技术人员继续教育基地的在线培训平台</div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./birdessay.html">
+                            <span class="imgs"><img src="../img/list_img04.jpg"></span>
+                            <div class="text">
+                                <div class="title">卓新思创天气app上线</div>
+                                <div class="data">2016-1-11</div>
+                                <div class="txt-content">小鸟掌学创建于2014年初，起源服务于四川省专业技术人员继续教育基地的在线培训平台</div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./birdessay.html">
+                            <span class="imgs"><img src="../img/list_img01.jpg"></span>
+                            <div class="text">
+                                <div class="title">卓新思创天气app上线</div>
+                                <div class="data">2016-1-11</div>
+                                <div class="txt-content">小鸟掌学创建于2014年初，起源服务于四川省专业技术人员继续教育基地的在线培训平台</div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./birdessay.html">
+                            <span class="imgs"><img src="../img/list_img02.jpg"></span>
+                            <div class="text">
+                                <div class="title">小鸟掌学开通国外渠道</div>
+                                <div class="data">2016-1-11</div>
+                                <div class="txt-content">小鸟掌学创建于2014年初，起源服务于四川省专业技术人员继续教育基地的在线培训平台</div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./birdessay.html">
+                            <span class="imgs"><img src="../img/list_img03.jpg"></span>
+                            <div class="text">
+                                <div class="title">卓新思创天气app上线</div>
+                                <div class="data">2016-1-11</div>
+                                <div class="txt-content">小鸟掌学创建于2014年初，起源服务于四川省专业技术人员继续教育基地的在线培训平台</div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./birdessay.html">
+                            <span class="imgs"><img src="../img/list_img04.jpg"></span>
+                            <div class="text">
+                                <div class="title">卓新思创天气app上线</div>
+                                <div class="data">2016-1-11</div>
+                                <div class="txt-content">小鸟掌学创建于2014年初，起源服务于四川省专业技术人员继续教育基地的在线培训平台</div>
+                            </div>
+                        </a>
+                    </li> -->
+                </ul>
+                <div class="more">
+                    <div class="shub"></div>
+                    <div class="next"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 底部 -->
+    <div id="footer"></div>
+    <div id="rock"></div>
+</body>
+
+</html>

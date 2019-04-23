@@ -1,0 +1,709 @@
+.main {
+    background: #f1f2f6;
+}
+
+.banner {
+    width: 100%;
+}
+
+.screen {
+    width: 100%;
+    height: 1000px;
+    position: relative;
+}
+
+.screen .active {
+    display: block;
+}
+
+.screen>ul>li {
+    width: 100%;
+    height: 1000px;
+    position: absolute;
+    display: none;
+}
+
+.screen>ul>li>img {
+    position: absolute;
+}
+
+.screen .one {
+    top: 40%;
+    left: 38%;
+}
+
+.screen .two {
+    top: 60%;
+    left: 43%;
+}
+
+.screen .three {
+    top: 70%;
+    left: 41%;
+}
+
+.screen .four {
+    top: 25%;
+    left: 15%;
+}
+
+.screen .five {
+    top: 10%;
+    left: 28%;
+}
+
+.screen .six {
+    top: 35%;
+    left: 28%;
+}
+
+/* ol */
+.screen>ol,.team-ol {
+    width: 120px;
+    background: url(../img/next&prev_line.png) no-repeat center;
+    padding-left: 79px;
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+}
+
+.border-L,
+.border-R {
+    width: 6px;
+    height: 14px;
+    background: url(../img/next&prev_mbg01.png) no-repeat;
+}
+
+.border-R {
+    background-image: url(../img/next&prev_mbg03.png);
+}
+
+.border-M {
+    width: 30px;
+    height: 10px;
+    background: url(../img/next&prev_mbg02.png) repeat-x;
+    padding-top: 4px;
+}
+
+.border-M>li {
+    float: left;
+    width: 6px;
+    height: 6px;
+    background: url(../img/next&prev_others.png) no-repeat;
+    cursor: pointer;
+}
+
+.border-M .active {
+    background: url(../img/next&prev_now.png);
+}
+
+.border-M .special {
+    margin: 0 6px;
+}
+
+.screen>ol .left,
+.screen>ol .right,
+.arrow .left,
+.arrow .right,
+.team-ol .left,
+.team-ol .right{
+    position: absolute;
+    width: 29px;
+    height: 29px;
+    top: -8px;
+    background: url(../img/prev_jiantou.png) no-repeat;
+    cursor: pointer;
+}
+
+.screen>ol .left,
+.arrow .left,
+.team-ol .left {
+    left: 0;
+}
+
+.screen>ol .right,
+.arrow .right,
+.team-ol .right{
+    right: 0;
+    background: url(../img/next_jiantou.png) no-repeat;
+}
+
+.screen>ol .left:hover,
+.arrow .left:hover,
+.team-ol .left:hover {
+    background-image: url(../img/prev_jiantou_hover.png);
+}
+
+.screen>ol .right:hover,
+.arrow .right:hover,
+.team-ol .right:hover {
+    background: url(../img/next_jiantou_hover.png)
+}
+
+.goOn {
+    height: 128px;
+    padding-top: 46px;
+    text-align: center;
+}
+
+/*  */
+.about-company {
+    margin-bottom: 100px;
+}
+
+.about-company .title,
+.business-scope .title,
+.our-works .title,
+.our-team .title ,
+.partners .title,
+.contanct .title{
+    text-align: center;
+    color: #311859;
+}
+
+.about-company .title h1,
+.business-scope .title h1,
+.our-works .title h1,
+.our-team .title h1,
+.partners .title h1,
+.contanct .title h1{
+    font: 52px/1em '楷体';
+}
+
+.about-company .title p,
+.business-scope .title p,
+.our-works .title p,
+.our-team .title p,
+.partners .title p ,
+.contanct .title p{
+    font: 22px/26px 'Microsoft yahei';
+    letter-spacing: 3px;
+}
+
+.about-company .title section,
+.business-scope .title section,
+.our-works .title section,
+.our-team .title section ,
+.partners .title section,
+.contanct .title section{
+    height: 20px;
+    padding-top: 10px;
+}
+
+.about-company .area,.our-works .area {
+    width: 100%;
+    height: 440px;
+    margin-top: 40px;
+    /* border: 1px solid; */
+    position: relative;
+}
+
+.area .company{
+    height: 440px;
+    padding-left: 65px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.area>ul>.active {
+    display: block;
+}
+
+.company>.left {}
+
+.company>.right {
+    width: 620px;
+}
+
+.company .tit {
+    height: 50px;
+    padding-top: 4px;
+    font: 34px/1em '楷体';
+    background: url(../img/pen_line.png) no-repeat 5px bottom,
+        url(../img/pen.png) no-repeat right 1px;
+}
+
+.company .right {
+    height: 620px;
+    padding-left: 20px;
+}
+
+.company .txt {
+    font: 16px/20px '楷体';
+    height: 190px;
+    padding-top: 35px;
+}
+
+.company .txt>img {
+    float: left;
+    padding: 5px 25px 0 20px;
+}
+
+.company .txt>span {
+    font: 24px/1.5em '楷体';
+}
+
+.company .tnt {
+    /* padding-top: 30px; */
+    font: 16px/24px '楷体';
+}
+
+.company .tnt>.end {
+    text-align: right;
+    padding-top: 30px;
+}
+
+.tnt>.end {
+    padding-top: 20px;
+    line-height: 40px;
+    text-align: right;
+}
+
+.arrow {
+    position: absolute;
+    width: 600px;
+    height: 29px;
+    background: url(../img/next&prev_line.png) repeat-x center;
+    top: 240px;
+    right: 45px;
+}
+
+.area .arrow div {
+    top: 0;
+}
+
+.area .company-line {
+    position: absolute;
+    width: 19px;
+    /* height: 386px; */
+    background: url(../img/chanpin_nowline_bgline.png) repeat-y center;
+    left: 20px;
+    top: 20px;
+    /* overflow: hidden; */
+}
+
+.company-line li {
+    width: 11px;
+    height: 11px;
+    background: url(../img/chanpin_nowline_xiaoquan.png) no-repeat 0 0;
+    cursor: pointer;
+    margin: 0px 4px 60px;
+    position: relative;
+}
+
+.company-line .special {
+    margin-bottom: 0px;
+}
+
+.company-line li:hover {
+    background-position: 0 -11px;
+}
+
+.company-line .active::after {
+    content: '';
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    background: url(../img/chanpin_nowline_daquan.png) no-repeat;
+    top: -4px;
+    left: -4px;
+}
+
+
+
+/*  */
+.our-works {
+    /* height: 500px; */
+    background: url(../img/mokuai02_bg.jpg) no-repeat;
+    background-size: 100% 100%;
+    color: white;
+}
+.our-works .txt{
+    padding-top: 30px;
+}
+.our-works .title {
+    color: white;
+    padding: 80px 0;
+}
+.our-works .company{
+    position: absolute;
+    top: -50px;
+}
+.our-works .company-line{
+    top: -50px;
+}
+.our-works .arrow{
+    top: 190px;
+}
+.our-works .title>section>img {
+    padding-top: 35px;
+}
+
+.yeWu {
+    padding: 50px 0 20px;
+    text-align: center;
+}
+
+/*  */
+.business-scope {
+    /* height: 500px; */
+}
+
+.business li {
+    padding-top: 40px;
+    background: url(../img/next&prev_line.png) repeat-x bottom;
+}
+
+.business .head {
+    height: 190px;
+}
+
+.business .xh {
+    width: 24%;
+    color: #ccc;
+    font-size: 90px;
+    line-height: 100px;
+}
+
+.panel .left {
+    width: 170px;
+    padding-top: 35px;
+    text-align: center;
+}
+
+.panel .cn {
+    font: 22px/1em '楷体 ';
+    letter-spacing: 2px;
+}
+
+.panel .en {
+    font-size: 12px;
+}
+
+.panel .btn {
+    padding: 0 56px;
+    cursor: pointer;
+}
+
+.panel .right {
+    width: 310px;
+    font: 14px/1.5em '楷体';
+    padding-top: 20px;
+}
+
+.business .closed {
+    width: 67px;
+    height: 67px;
+    margin-top: 24px;
+    cursor: pointer;
+    background: url(../img/business_zhankaishouqi.png) no-repeat 0 0;
+    /* 过渡效果 */
+    transition: all 0.5s ease-out;
+}
+
+.business .foot {
+    width: 800px;
+    height: 0;
+    font: 14px/2em '楷体';
+    margin: 0 auto;
+    overflow: hidden;
+    /* 过渡效果 */
+    transition: all 0.5s ease-out;
+}
+
+.business>.active .closed {
+    background-position: 0 -67px;
+}
+
+.business>.active .foot {
+    height: 200px;
+    /* padding-bottom: 20px; */
+}
+
+/*  */
+.our-team{
+    height: 550px;
+}
+.team-content{
+    padding-top: 30px;
+}
+.team-screen{
+    width: 1100px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+}
+.team-screen>ul{
+    width: 450%;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.iteam{
+    width: 1100px;
+    height: 300px;
+}
+.iteam .two,.iteam .one{
+    width: 485px;
+    height: 260px;
+    position: relative;
+}
+.iteam .one{
+    margin-right: 80px;
+}
+.iteam .icon{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+.iteam .icon>img{
+    vertical-align: bottom;
+    margin: 0 20px;
+}
+.iteam .icon>p{
+    display: inline-block;
+    width: 220px;
+    font: 14px/2em '楷体';
+}
+.iteam .idcard{
+    width: 485px;
+    height: 80px;
+    border: 1px solid #ccc;
+    padding-top: 107px;
+    position: absolute;
+    top: 70px;
+    left: 0;
+}
+.idcard .username{
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    vertical-align: top;
+}
+.idcard .username span{
+    font: 20px/1em '楷体';
+}
+.idcard .username p{
+    font: 16px/1.2em '楷体';
+}
+.idcard .sendEmail{
+    position: relative;
+    display: inline-block;
+    width: 198px;
+    height: 45px;
+    border: 1px solid #ccc;
+    text-align: center;
+    font: 14px/46px '楷体';
+    padding-left: 47px;
+    cursor: pointer;
+    background: #ccc;
+}
+.idcard .sendEmail>span{
+    position: absolute;
+    width: 16px;
+    height: 12px;
+    background: url(../img/team_contact.png) no-repeat -3px 0;
+    top: 17px;
+    left: 17.5px;
+}
+.idcard .sendEmail:hover{
+    border-color: #311859;
+}
+.idcard .icons{
+    position: absolute;
+    width: 47px;
+    height: 188px;
+    top: 0;
+    right: -46px;
+}
+.icons li{
+    width: 47px;
+    height: 47px;
+    background: #2999d5 url(../img/team_contact.png) no-repeat 13px -124px;
+    cursor: pointer;
+}
+.icons li:hover{
+    background-color: #1688ca;
+}
+.team-content{
+    position: relative;
+}
+.team-ol{
+    bottom: -20px;
+}
+
+/*  */
+.partners .title {
+    padding: 5% 0   ;
+}
+.partners{
+    background-color: white;
+}
+
+.partner-box h1,.partner-right h1{
+    color: #311859;
+    font: 36px/50px '楷体';
+}
+.partner-left>span,.partner-right span{
+    letter-spacing: 6px;
+}
+.partner-left{
+    float: left;
+    width: 550px;
+    border-right: 1px solid #ccc;
+    margin-bottom: 120px;
+}
+.partner-imgs>ul,.partner-imgss>ul{
+    width: 520px;
+}
+.partner-imgs>ul>li{
+    float: left;
+    width: 173px;
+    height: 80px;
+    margin-top: 70px;
+}
+.partner-right{
+    position: relative;
+    float: right;
+}
+.partner-imgss>ul>li{
+    width: 173px;
+    height: 80px;
+    float: left;
+    margin-top: 70px;
+}
+
+.bgimg{
+    position: absolute;
+    width: 69px;
+    height: 26px;
+    top: 15px;
+    right: 35px;
+    background: url(../img/yonghu_morebg.png) no-repeat;
+    cursor: pointer;
+}
+
+/*  */
+.contanct {
+    /* height: 500px; */
+    background: #f1f2f6;
+}
+.contanct .title{
+    padding: 50px 0;
+}
+.contanct .name{
+    width: 345px;
+    margin-right: 27px;
+}
+.contanct .mail{
+    width: 345px;
+    margin-right: 39px;
+}
+.contanct .phone>i{
+    background-position: -79px 14px;
+}
+.contanct .input-box>ul>li>i{
+    float: left;
+    width: 45px;
+    height: 45px;
+    background: #e7e8ec url(../img/lianxi_icons.png) no-repeat 13px 14px;
+}
+.contanct .input-box>ul>li{
+    float: left;
+}
+.input-box .box{
+    float: left;
+    height: 45px;
+    width: 333px;
+    background: #fff;
+    border: 1px solid #dedfe3;
+    margin-bottom: 27px;
+}
+.input-box>ul>li input{
+    float:left;
+	width:268px;
+	height:45px;
+	padding-left:18px;
+	font:16px/45px '楷体';
+	color:#5f4c82;
+	border:none 0;
+}
+.input-box textarea{
+    float: left;
+    width: 620px;
+    height: 200px;
+    padding: 10px 17px 0 18px;
+    resize: none;
+    border: 0 none;
+    font: 16px/27px '楷体';
+    color: #5f4c82;
+    outline: none;
+}
+.left-box i{
+    float: left;
+    width: 45px;
+    height: 210px;
+    background:  #e7e8ec url(../img/lianxi_icons.png) no-repeat 13px 14px;
+}
+.left-box p{
+    float: right;
+    width: 365px;
+    font: 18px/1.5em '楷体';
+}
+.left-box .thanks{
+    padding-top: 50px;
+}
+.left-box .icon{
+    width: 47px;
+    height: 47px;
+    background: #1688ca url(../img/lianxi_icons.png) no-repeat -179px 14px ;
+}
+.left-box .liuyan{
+    float: right;
+    text-align: center;
+    width: 298px;
+    margin: 20px 47px 0 47px;
+    color: white;
+    cursor: pointer;
+    line-height: 47px;
+    height: 47px;
+    background: #2999d5
+}
+.lianxi-img{
+    padding-top: 90px;
+}
+.img-one{
+    float: left;
+    width: 345px;
+    height: 250px;
+    padding-right: 10px;
+}
+.img-one .content{
+    float: right;
+    text-align: left;
+}
+.img-one .content h1{
+    width: 210px;
+    height: 80px;
+    font: 32px/1.5em '楷体';
+    color: #311859;
+    background: url(../img/lianxi_kuaier_bg.png) no-repeat bottom;
+    margin-bottom: 20px;
+}
+.img-one .content span{
+    font: 14px/2em '楷体';
+}
+
+.map{
+    height: 550px;
+}
+.main{
+    position: relative;
+}
